@@ -49,8 +49,8 @@ def optimize_sigma(data=None,target=None,split=2,kernel='Laplacian',min_sigma=1,
         ert_nr.append((sum(tab)/len(tab)).loc[(sum(tab)/len(tab))['mae'] == (sum(tab)/len(tab))['mae'].min()]['Nr'])
     return (ert_mae, ert_nr,eta)
 
-A=np.load(INPUT_DATA_PATH)[:3000]
-B=pd.read_csv(OUTPUT_DATA_PATH)['GAP'][:3000]
+A=np.load(INPUT_DATA_PATH)[:3000] # Add your INPUT_DATA_PATH
+B=pd.read_csv(OUTPUT_DATA_PATH)['GAP'][:3000] # OUTPUT_DATA_PATH
 
 Q=optimize_sigma(data=A,target=B,split=4)
 print(Q)
