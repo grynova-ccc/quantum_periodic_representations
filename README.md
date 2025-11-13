@@ -91,3 +91,31 @@ Parallel(n_jobs=N)(
     delayed(oem_rep)(cif_path, output_folder=output_folder)
     for cif_path in cif_files)
 ```
+## 🚀 How to Use
+For generating the full one-electron–integral–based representations, the basis set is the only user-defined parameter. By default, we recommend using the redefined pcseg-0 basis set.
+
+To compute a representation, the user must provide:
+
+CIF_file – path to the CIF structure
+
+integral_type – which matrix to calculate:
+
+TM → kinetic energy matrix
+
+VM → nuclear attraction matrix
+
+SM → overlap matrix
+
+Additional options:
+
+norm=True → normalize the representation
+
+sort=True → sort the representation by atomic orbital order
+
+PCA_red=<int> → number of principal components for the reduced representation
+
+Setting PCA_red applies PCA and returns a reduced-dimensionality version of the representation.
+
+```bash
+oem_rep(CIF_file,basis_set='pcseg-0', int_type='TM', PCA_red=9, norm=True, sort=True)
+```
