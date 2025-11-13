@@ -17,7 +17,7 @@ Apart from that, traditional representations are often extremely large, making t
 The table below illustrates this for several widely used representations, showing the number of features and the memory required to load or store these arrays for 2,000 randomly selected compounds from the QMOF dataset.
 
 | Representations | Dimensions | Memory [MB] |
-|-------|----------|---------|
+|-------|:----------:|:---------:|
 | MBTR    | ![dim](https://img.shields.io/badge/28800-green) | ![mem](https://img.shields.io/badge/439.54-green) |
 | LMBTR    | ![dim](https://img.shields.io/badge/384000-yellow) | ![mem](https://img.shields.io/badge/5859.46-yellow) |
 | SM    | ![dim](https://img.shields.io/badge/250000-yellow) | ![mem](https://img.shields.io/badge/3814.79-yellow) |
