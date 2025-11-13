@@ -1,6 +1,6 @@
 ## Representing periodic systems with one-electron integral matrices
 <p align="center">
-  <img src="images/image_1.png" width="700" />
+  <img src="images/image_1.png" width="650" />
 </p>
 
 ### Welcome! 👋
@@ -120,5 +120,10 @@ Setting `PCA_red` applies PCA and returns a reduced-dimensionality version of th
 
 ## Data Splitting and Periodic Table Visualization
 As seen the data splitting technique when training and testing a model plays a crutial role. Three data splitting etchniques were used in the article. To use them, import the required packages as follows:
+
 Random split: `from sklearn.model_selection import train_test_split`
-Kennard-Stone split: 
+
+Kennard-Stone split: `from kennard_stone import train_test_split`
+
+Chemically-relevant split: `use [separate_compounds_from_metalic_component function](https://github.com/grynova-ccc/quantum_periodic_representations/blob/main/Codes/ML_and_data_science/auxiliary_functions.ipynb) function`
+
