@@ -110,9 +110,9 @@ To compute a representation, the user must provide:
 
 Additional options:
 
-norm=True → normalize the representation
+`norm` =True → normalize the representation
 
-sort=True → sort the representation by atomic orbital order
+`sort` =True → sort the representation by atomic orbital order
 
 `PCA_red` =<int> → number of principal components for the reduced representation
 
