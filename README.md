@@ -66,3 +66,29 @@ To generate the representations based on one-electron integrals, install the pac
 pip install one_electron_matrices
 ```
 The code depends on the following packages: [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [ASE](https://ase-lib.org/), and [ASE](https://pyscf.org/).
+
+Producing the representation for a single molecule is not very useful when training a machine-learning model. However, when using the one_electron_matrices package, only one CIF file is needed to compute its corresponding representation. To generate representations for multiple CIF files in parallel, you can use the following code:
+```bash
+from joblib import Parallel, delayed
+from pathlib import Path
+from one_electron_matrices import process_one_cif
+
+# Path to your CIF directory
+cif_folder = Path("PATH_TO_CIFS")
+
+# Path to output folder
+output_folder = Path("OUTPUT_PATH")
+output_folder.mkdir(exist_ok=True, parents=True)
+
+# Collect all CIF files
+cif_files = sorted(cif_folder.glob("*.cif"))
+
+# Number of parallel workers (adjust to your CPU)
+N = 28
+
+# Run in parallel
+Parallel(n_jobs=N)(
+    delayed(process_one_cif)(cif_path, output_folder=output_folder)
+    for cif_path in cif_files
+)
+```
