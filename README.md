@@ -125,5 +125,5 @@ Random split: `from sklearn.model_selection import train_test_split`
 
 Kennard-Stone split: `from kennard_stone import train_test_split`
 
-Chemically-relevant split: `use [separate_compounds_from_metalic_component function](https://github.com/grynova-ccc/quantum_periodic_representations/blob/main/Codes/ML_and_data_science/auxiliary_functions.ipynb) function`
+Chemically-relevant split: use [separate_compounds_from_metalic_component](https://github.com/grynova-ccc/quantum_periodic_representations/blob/main/Codes/ML_and_data_science/auxiliary_functions.ipynb) function
 
