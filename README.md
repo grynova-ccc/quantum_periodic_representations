@@ -3,13 +3,13 @@
   <img src="images/image_1.png" width="650" />
 </p>
 
-### Welcome! 👋
+## Welcome! 👋
 This repository supports the research paper of the same name, where we investigate how one-electron integrals can be used as an effective and robust materials representation. Here you’ll find the code, data, and tools used to develop and validate the approach. 
 
 The code in this repository allows you to generate the TM, VM, and SM representations.
 Notably, for the QMOF dataset and the prediction of the PBE band gap, the TM representation demonstrates the strongest performance compared to the others.
 
-### ❓ Why This Project?
+## ❓ Why This Project?
 There are many ways to represent materials—everything from simple text-based formats to computer-vision-style features and physics-inspired descriptors. But unlike the molecular world, materials science rarely uses quantum-inspired electronic information as part of the representation.
 A big reason for this is that generating such data has traditionally been slow, complex, and not very practical for large datasets. Still, if we want a complete picture of a material, we shouldn’t ignore its electronic structure. In some cases, combining electronic information with geometry can make a big difference—and even become essential for predicting certain properties. 
 
@@ -127,16 +127,16 @@ Kennard-Stone split: `from kennard_stone import train_test_split`
 
 Chemically-relevant split: [separate_compounds_from_metalic_component](https://github.com/grynova-ccc/quantum_periodic_representations/blob/main/Codes/ML_and_data_science/auxiliary_functions.ipynb)
 
-### Contributing
+## Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue.
 
-### Contact
+## Contact
 If you have questions, feel free to reach out: stivllenga@gmail.com
 
-### Final Note
+## Final Note
 If you find this project useful, please give it a ⭐! It really helps.
 
-### Citation
+## Citation
 If you use this project in your research, please cite:
 URL URL URL
 
