@@ -118,3 +118,5 @@ Additional options:
 
 Setting `PCA_red` applies PCA and returns a reduced-dimensionality version of the representation.
 
+## Data Splitting and Periodic Table Visualization
+
