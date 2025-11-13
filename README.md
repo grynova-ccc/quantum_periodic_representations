@@ -119,4 +119,4 @@ Additional options:
 Setting `PCA_red` applies PCA and returns a reduced-dimensionality version of the representation.
 
 ## Data Splitting and Periodic Table Visualization
-
+**As seen the data splitting technique when training and testing a model plays a crutial role. Three data splitting etchniques were used in the article.**
