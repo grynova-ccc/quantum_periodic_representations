@@ -58,5 +58,11 @@ The table below illustrates this for several widely used representations, showin
 
 </div>
 
+## 🔧 Installation
+
+To generate the representations based on one-electron integrals, install the package using:
+
+```bash
+pip install one_electron_matrices
 
 
