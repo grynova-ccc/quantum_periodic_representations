@@ -18,11 +18,11 @@ The table below illustrates this for several widely used representations, showin
 
 | Representations | Dimensions | Memory [MB] |
 |-------|----------|---------|
-| MBTR    | ![acc](https://img.shields.io/badge/28800-brightgreen) | ⭐ Strong |
-| LMBTR    | ![acc](https://img.shields.io/badge/384000-yellow) | 👍 Decent |
-| SM    | ![acc](https://img.shields.io/badge/250000-yellow) | ✔ Good |
-| ESM    | ![acc](https://img.shields.io/badge/250000-yellow) | ✔ Good |
-| SOAP    | ![acc](https://img.shields.io/badge/5362560-red) | ✔ Good |
-| TM, VM, SM    | ![acc](https://img.shields.io/badge/34992-brightgreen) | ✔ Good |
+| MBTR    | ![dim](https://img.shields.io/badge/28800-green) | ![mem](https://img.shields.io/badge/439.54-green) |
+| LMBTR    | ![dim](https://img.shields.io/badge/384000-yellow) | ![mem](https://img.shields.io/badge/5859.46-yellow) |
+| SM    | ![dim](https://img.shields.io/badge/250000-yellow) | ![mem](https://img.shields.io/badge/3814.79-yellow) |
+| ESM    | ![dim](https://img.shields.io/badge/250000-yellow) | ![mem](https://img.shields.io/badge/3814.79-yellow) |
+| SOAP    | ![dim](https://img.shields.io/badge/5362560-red) | ![mem](https://img.shields.io/badge/81826.26-red) |
+| TM, VM, SM    | ![dim](https://img.shields.io/badge/34992-green) | ![mem](https://img.shields.io/badge/534.02-green) |
 
 
