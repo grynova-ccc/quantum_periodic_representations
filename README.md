@@ -16,13 +16,47 @@ A big reason for this is that generating such data has traditionally been slow, 
 Apart from that, traditional representations are often extremely large, making them difficult to handle and challenging to use as input for machine learning models.
 The table below illustrates this for several widely used representations, showing the number of features and the memory required to load or store these arrays for 2,000 randomly selected compounds from the QMOF dataset.
 
-| Representations | Dimensions | Memory [MB] |
-|-------|:----------:|:---------:|
-| MBTR    | ![dim](https://img.shields.io/badge/28800-green) | ![mem](https://img.shields.io/badge/439.54-green) |
-| LMBTR    | ![dim](https://img.shields.io/badge/384000-yellow) | ![mem](https://img.shields.io/badge/5859.46-yellow) |
-| SM    | ![dim](https://img.shields.io/badge/250000-yellow) | ![mem](https://img.shields.io/badge/3814.79-yellow) |
-| ESM    | ![dim](https://img.shields.io/badge/250000-yellow) | ![mem](https://img.shields.io/badge/3814.79-yellow) |
-| SOAP    | ![dim](https://img.shields.io/badge/5362560-red) | ![mem](https://img.shields.io/badge/81826.26-red) |
-| TM, VM, SM    | ![dim](https://img.shields.io/badge/34992-green) | ![mem](https://img.shields.io/badge/534.02-green) |
+<div align="center">
+
+<table>
+  <tr>
+    <th>Representations</th>
+    <th>Dimensions</th>
+    <th>Memory [MB]</th>
+  </tr>
+  <tr>
+    <td>MBTR</td>
+    <td><img src="https://img.shields.io/badge/28800-green"></td>
+    <td><img src="https://img.shields.io/badge/439.54-green"></td>
+  </tr>
+  <tr>
+    <td>LMBTR</td>
+    <td><img src="https://img.shields.io/badge/384000-yellow"></td>
+    <td><img src="https://img.shields.io/badge/5859.46-yellow"></td>
+  </tr>
+  <tr>
+    <td>SM</td>
+    <td><img src="https://img.shields.io/badge/250000-yellow"></td>
+    <td><img src="https://img.shields.io/badge/3814.79-yellow"></td>
+  </tr>
+  <tr>
+    <td>ESM</td>
+    <td><img src="https://img.shields.io/badge/250000-yellow"></td>
+    <td><img src="https://img.shields.io/badge/3814.79-yellow"></td>
+  </tr>
+  <tr>
+    <td>SOAP</td>
+    <td><img src="https://img.shields.io/badge/5362560-red"></td>
+    <td><img src="https://img.shields.io/badge/81826.26-red"></td>
+  </tr>
+  <tr>
+    <td>TM, VM, SM</td>
+    <td><img src="https://img.shields.io/badge/34992-green"></td>
+    <td><img src="https://img.shields.io/badge/534.02-green"></td>
+  </tr>
+</table>
+
+</div>
+
 
 
