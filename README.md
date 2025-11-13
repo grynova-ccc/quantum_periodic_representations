@@ -127,3 +127,17 @@ Kennard-Stone split: `from kennard_stone import train_test_split`
 
 Chemically-relevant split: [separate_compounds_from_metalic_component](https://github.com/grynova-ccc/quantum_periodic_representations/blob/main/Codes/ML_and_data_science/auxiliary_functions.ipynb)
 
+### Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue.
+
+### Contact
+If you have questions, feel free to reach out: stivllenga@gmail.com
+
+### Final Note
+If you find this project useful, please give it a ⭐! It really helps.
+
+### Citation
+If you use this project in your research, please cite:
+URL URL URL
+
+
