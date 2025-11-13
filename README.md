@@ -64,5 +64,5 @@ To generate the representations based on one-electron integrals, install the pac
 
 ```bash
 pip install one_electron_matrices
-
-
+```
+The code depends on the following packages: [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [ASE](https://ase-lib.org/), and [ASE](https://pyscf.org/).
