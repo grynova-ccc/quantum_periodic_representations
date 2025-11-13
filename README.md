@@ -114,7 +114,7 @@ sort=True → sort the representation by atomic orbital order
 
 `PCA_red` =<int> → number of principal components for the reduced representation
 
-Setting PCA_red applies PCA and returns a reduced-dimensionality version of the representation.
+Setting `PCA_red` applies PCA and returns a reduced-dimensionality version of the representation.
 
 ```bash
 oem_rep(CIF_file,basis_set='pcseg-0', int_type='TM', PCA_red=9, norm=True, sort=True)
