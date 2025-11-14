@@ -71,24 +71,18 @@ Producing the representation for a single molecule is not very useful when train
 ```python
 from joblib import Parallel, delayed
 from pathlib import Path
-from one_electron_matrices import oem_rep
+from your_module import oem_rep  # import your function
 
-# Path to your CIF directory
 cif_folder = Path("PATH_TO_CIFS")
-
-# Path to the output folder (each representation will be saved individually)
 output_folder = Path("OUTPUT_PATH")
 output_folder.mkdir(exist_ok=True, parents=True)
 
-# Collect all CIF files
 cif_files = sorted(cif_folder.glob("*.cif"))
 
-# Number of parallel workers (adjust to your CPU)
-N = 28
+N = N  # adjust CPU usage
 
-# Run in parallel
 Parallel(n_jobs=N)(
-    delayed(oem_rep)(cif_path, output_folder=output_folder)
+    delayed(oem_rep)(str(cif_path), output_path=str(output_folder))
     for cif_path in cif_files)
 ```
 ## 🚀 How to Use
