@@ -1,4 +1,4 @@
-## Representing periodic systems with one-electron integral matrices
+## Quantum-Inspired Machine Learning Representation for Periodic Materials
 <p align="center">
   <img src="images/image_1.png" width="650" />
 </p>
