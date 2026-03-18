@@ -125,7 +125,6 @@ Chemically-relevant split: [separate_compounds_from_metalic_component](https://g
 If you have questions, feel free to reach out: stivllenga@gmail.com
 
 ## Citation
-If you use this project in your research, please cite:
-URL URL URL
+If you use this project in your research, please cite: https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001028/v1
 
 
