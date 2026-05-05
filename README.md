@@ -71,7 +71,7 @@ Producing the representation for a single molecule is not very useful when train
 ```python
 from joblib import Parallel, delayed
 from pathlib import Path
-from your_module import oem_rep  # import your function
+from one_electron_matrices import oem_rep  # import your function
 
 cif_folder = Path("PATH_TO_CIFS")
 output_folder = Path("OUTPUT_PATH")
